@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Domine;
+    padding: 24px 0;
+    height: 96px;
+}
+
+.nav-left{
+    font-size: 40px;
+    margin-left: 45px;
+}
+
+.nav-right{
+    display: flex;
+    font-size: 28px;
+    gap: 48px;
+    margin-right: 30px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+.newspaper{
+    width: 90%; 
+    display: block;
+    margin: 0 auto;
+}
+
+.section{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.section h1{
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.section p{
+    font-size: 24px;
+}
+
+.section button{
+    justify-content: center;
+    align-items: center;
+    width: 196px;
+    height: 56px;
+    font-size: 20px;
+    background-color: #333333;
+    color: white;
+    border: none;
+}
+
+.projects{
+    padding: 40px;
+}
+  
+.projects h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+  
+.project-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.project-card{
+    padding: 20px;
+    width: 500px;
+    text-align: left;
+}
+  
+.project-card img{
+    width: 100%; 
+    height: auto; 
+}
+  
+.project-card h2{
+    font-size: 20px;
+    margin: 15px 0 10px;
+}
+  
+.project-card p{
+    font-size: 15px; 
+    margin-bottom: 15px;
+}
+  
+.project-card button{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+.contact-section{
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+  
+.contact-section h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+  
+.contact-section p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.input-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+  
+.input-container input{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.contact-form button {
+    width: 50%;
+    max-width: 400px;
+    padding: 12px 24px;
+    font-size: 20px;
+    color: white;
+    background-color: #333;
+    border: none;
+    margin-bottom: 30px;
+}
+  
+.skip-link{
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+footer p{
+    font-family: Domine;
+    font-weight: 400;
+    font-size: 28px;
+    color: #dedede;
+    margin-left: 40px;
+}
+
+footer button{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 16px 40px;
+    border: 0.8px solid white;
+}
