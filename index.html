@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-left">
+            <h3>Portfolio</h3>
+        </div>
+        <div class="nav-right">
+            <h4>Home</h4>
+            <h4>About</h4>
+            <h4>Projects</h4>
+            <h4>Contact</h4>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="heading">
+            <h1>Welcome to My Vintage Portfolio</h1>
+        </div>
+        <img src="./Newspaper.png" alt="newspaper" class="newspaper">
+
+        <div class="section">
+            <h1>See My Work</h1>
+            <p>Discover projects that showcase my skills and creativity.</p>
+            <button>See My Work</button>
+        </div>
+
+        <section class="projects">
+            <h1>Projects</h1>
+            <div class="project-container">
+                <div class="project-card">
+                    <img src="./Project-1.png" alt="Project One">
+                    <h2>Project One</h2>
+                    <p>A detailed look at my first project.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="project-card">
+                    <img src="./Project-2.png" alt="Project Two">
+                    <h2>Project Two</h2>
+                    <p>An overview of my second project.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="project-card">
+                    <img src="./Project-3.png" alt="Project Three">
+                    <h2>Project Three</h2>
+                    <p>Insights into my third project.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="contact-section">
+            <h1>Get in Touch</h1>
+            <p>I'd love to hear from you. Fill out the form below to reach out.</p>
+            <form class="contact-form">
+                <div class="input-container">
+                    <input type="text" placeholder="0">
+                    <input type="text" placeholder="0">
+                    <input type="text" placeholder="0">
+                    <input type="text" placeholder="0">
+                    <input type="text" placeholder="0">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <a class="skip-link">Skip</a>
+        </div>
+
+        <footer>
+            <p>© 2023 My Vintage Portfolio</p>
+            <button onclick="scrollToTop()">Back to Top</button>
+            <script>
+                function scrollToTop() {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                }
+            </script>
+        </footer>
+    </div>
+</body>
+</html>
